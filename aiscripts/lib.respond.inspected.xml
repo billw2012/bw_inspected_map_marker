@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <replace sel="/aiscript/attention/actions/do_if[@value='this.isplayerowned']/write_to_logbook">
+    <write_to_logbook category="general" title="$title" faction="$inspector.owner" interaction="showonmap" object="this.assignedcontrolled" text="$text + '\n' + {1001, 9322} + {1001, 120} + ' ' + $responsename"/>
+  </replace>
+</diff>
